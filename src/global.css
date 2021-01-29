@@ -31,6 +31,7 @@ h1{
 }
 
 td{
+    margin:50px;
     padding:10px 20px 0 20px;
 }
 
@@ -53,3 +54,4 @@ td{
     width: 33%;
     margin: auto;
 }
+
