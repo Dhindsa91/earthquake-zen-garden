@@ -48,3 +48,8 @@ td{
     width: 400px;
     float: left;
 }
+
+.earthquake_container{
+    width: 33%;
+    margin: auto;
+}

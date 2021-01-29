@@ -16,9 +16,9 @@ export default class HomePage extends Component {
       
           return(
           <tr>
-           <Link to={`/profile/${e.id}`}> <td>{e.properties.place}</td>  </Link>
-           <Link to={`/profile/${e.id}`}> <td>{e.properties.mag}</td> </Link>
-           <Link to={`/profile/${e.id}`}> <td>{e.properties.time}</td> </Link>
+           <Link to={`/earthquake?id=${e.id}`}> <td>{e.properties.place}</td>  </Link>
+           <Link to={`/earthquake?id=${e.id}`}> <td>{e.properties.mag}</td> </Link>
+           <Link to={`/earthquake?id=${e.id}`}> <td>{e.properties.time}</td> </Link>
           </tr>
           )
       })}
