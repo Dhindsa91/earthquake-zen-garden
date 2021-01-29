@@ -1,0 +1,50 @@
+html{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    color: #444444;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 99%;
+    padding: 10px;
+    background-color:#ededed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.logo{
+    height: 3rem;
+}
+
+.data_table{
+    margin:auto;
+}
+
+td{
+    padding:10px 20px 0 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+.profile_container{
+    width: 80%;
+    margin: auto;
+}
+
+.profile_image{
+    height: 400px;
+    width: 400px;
+    float: left;
+}
